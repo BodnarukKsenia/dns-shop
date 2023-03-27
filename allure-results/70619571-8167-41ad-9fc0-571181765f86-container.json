@@ -1,0 +1,1 @@
+{"uuid":"70619571-8167-41ad-9fc0-571181765f86","name":"dns-shop","children":["326b79e4-d7fb-4bf5-809f-1dc1fc9acd51"],"befores":[{"name":"waiting","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1679915903389,"stop":1679915903396}],"afters":[],"start":1679915903327,"stop":1679915912964}

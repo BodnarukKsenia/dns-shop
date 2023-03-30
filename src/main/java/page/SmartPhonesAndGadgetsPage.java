@@ -13,7 +13,7 @@ import java.time.Duration;
 public class SmartPhonesAndGadgetsPage extends BasePage {
     private static SmartPhonesAndGadgetsPage instance;
 
-    public SmartPhonesAndGadgetsPage(WebDriver webDriver) {
+    private SmartPhonesAndGadgetsPage(WebDriver webDriver) {
         super(webDriver);
     }
 

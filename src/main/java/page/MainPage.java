@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 public class MainPage extends BasePage{
     private static MainPage instance;
 
-    public MainPage(WebDriver webDriver) {
+    private MainPage(WebDriver webDriver) {
         super(webDriver);
     }
 

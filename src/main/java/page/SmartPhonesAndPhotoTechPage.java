@@ -10,7 +10,7 @@ public class SmartPhonesAndPhotoTechPage extends BasePage {
 
     private static SmartPhonesAndPhotoTechPage instance;
 
-    public SmartPhonesAndPhotoTechPage(WebDriver webDriver) {
+    private SmartPhonesAndPhotoTechPage(WebDriver webDriver) {
         super(webDriver);
     }
 

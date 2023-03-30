@@ -13,7 +13,7 @@ public class ProductPage extends BasePage{
     private static ProductPage instance;
     Actions actions = new Actions(driver);
 
-    public ProductPage(WebDriver webDriver) {
+    private ProductPage(WebDriver webDriver) {
         super(webDriver);
     }
 

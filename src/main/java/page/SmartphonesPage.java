@@ -12,7 +12,7 @@ public class SmartphonesPage extends BasePage {
     Actions actions = new Actions(driver);
     private static SmartphonesPage instance;
 
-    public SmartphonesPage(WebDriver webDriver) {
+    private SmartphonesPage(WebDriver webDriver) {
         super(webDriver);
     }
 

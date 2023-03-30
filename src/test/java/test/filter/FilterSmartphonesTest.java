@@ -32,6 +32,5 @@ public class FilterSmartphonesTest extends BaseTest {
         softAssert.assertTrue(productPage.checkingROMCharacteristics().contains("256 ГБ"),
                 "Product ROM is not 256 GB");
         softAssert.assertAll();
-
     }
 }

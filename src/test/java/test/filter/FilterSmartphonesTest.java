@@ -6,26 +6,31 @@ import io.qameta.allure.Feature;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-@Epic(value = "Service")
-@Feature(value = "Фильтр смартфонов")
+@Epic(value = "Smartphones")
+@Feature(value = "Smartphones Filter")
 public class FilterSmartphonesTest extends BaseTest {
 
-    @Test(description = "Тест")
+    @Test(description = "Smartphones filter: Samsung, ROM: 256 GB")
     public void checkingSamsung256GBTest() {
 
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertTrue(mainPage.smartphonesAndPhotoTechIsDisplayed(), "Элемент отсутствует");
         mainPage.smartphonesAndPhotoTechClick();
         smartPhonesAndPhotoTechPage.smartphonesAndGadgetsClick();
+        smartPhonesAndGadgetsPage.smartphonesWaiting();
         smartPhonesAndGadgetsPage.smartphonesClick();
         smartphonesPage.checkboxSamsungClick();
         smartphonesPage.sectionROMClick();
         smartphonesPage.checkboxROM256GbClick();
         smartphonesPage.applyButtonClick();
+        smartphonesPage.sortingDropdownClick();
         smartphonesPage.chooseRadiobuttonExpensiveFirstClick();
+        smartphonesPage.firstProductClick();
+        softAssert.assertTrue(productPage.productCardIsDisplayed(), "Product page is not open");
         productPage.expandAllCharacteristicsButtonClick();
-        softAssert.assertTrue(productPage.checkingModelCharacteristics().contains("Samsung"),
-                "Модель продукта не соответствует");
+        softAssert.assertTrue(productPage.checkingBrandCharacteristics().contains("Samsung "),
+                "Product model is not Samsung");
+        softAssert.assertTrue(productPage.checkingROMCharacteristics().contains("256 ГБ"),
+                "Product ROM is not 256 GB");
         softAssert.assertAll();
 
     }

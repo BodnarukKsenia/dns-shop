@@ -23,11 +23,9 @@ public class MainPage extends BasePage{
     private WebElement smartphonesAndPhotoTech;
 
     @Step("Нажимаем на кнопку 'Смартфоны и фототехника'")
-    public boolean smartphonesAndPhotoTechIsDisplayed() {
-        return smartphonesAndPhotoTech.isDisplayed();
-    }
-    @Step("Нажимаем на кнопку 'Смартфоны и фототехника'")
-    public void smartphonesAndPhotoTechClick() {
+    public MainPage smartphonesAndPhotoTechClick() {
         smartphonesAndPhotoTech.click();
+        return this;
     }
+
 }

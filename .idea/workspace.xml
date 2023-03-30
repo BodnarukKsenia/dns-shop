@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="" />
+    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="change return">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndGadgetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndGadgetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndPhotoTechPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndPhotoTechPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartphonesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartphonesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/filter/FilterSmartphonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/filter/FilterSmartphonesTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +27,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NNh3slVwk1y8MvwedyBt6Idn8e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -115,6 +128,17 @@
       <updated>1679510252447</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

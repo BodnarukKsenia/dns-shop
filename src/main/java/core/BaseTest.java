@@ -11,11 +11,10 @@ public class BaseTest {
 
     protected WebDriver driver;
     protected MainPage mainPage;
-    protected  SmartPhonesAndPhotoTechPage smartPhonesAndPhotoTechPage;
+    protected SmartPhonesAndPhotoTechPage smartPhonesAndPhotoTechPage;
     protected SmartPhonesAndGadgetsPage smartPhonesAndGadgetsPage;
     protected SmartphonesPage smartphonesPage;
     protected ProductPage productPage;
-
 
     @BeforeClass
     public void setUp() {

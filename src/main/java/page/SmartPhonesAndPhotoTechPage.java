@@ -24,7 +24,8 @@ public class SmartPhonesAndPhotoTechPage extends BasePage {
     private WebElement smartphonesAndGadgets;
 
     @Step("Нажимаем на кнопку 'Смартфоны и гаджеты'")
-    public void smartphonesAndGadgetsClick() {
+    public SmartPhonesAndPhotoTechPage smartphonesAndGadgetsClick() {
         smartphonesAndGadgets.click();
+        return this;
     }
 }

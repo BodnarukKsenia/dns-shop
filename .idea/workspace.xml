@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="change return">
+    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="add js executor and actions">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testng_suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndGadgetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndGadgetsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndPhotoTechPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartPhonesAndPhotoTechPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/SmartphonesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SmartphonesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/filter/FilterSmartphonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/filter/FilterSmartphonesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Account/IdeaProjects/dns-shop/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Account/IdeaProjects/dns-shop/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/Account/IdeaProjects/dns-shop/src/test/java",
+    "last_opened_file_path": "C:/Users/Account/IdeaProjects/dns-shop/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Account\IdeaProjects\dns-shop\src\main\resources" />
@@ -127,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679510252447</updated>
     </task>
+    <task id="LOCAL-00001" summary="add js executor and actions">
+      <created>1680196617714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196617714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add js executor and actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add js executor and actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

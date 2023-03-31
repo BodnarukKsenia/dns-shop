@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="add js executor and actions">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng_suite.xml" afterDir="false" />
+    <list default="true" id="f1591016-57da-4b6d-97bb-8f552cb78757" name="Changes" comment="private page constructors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680196617714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add allure.properties, ref pom">
+      <created>1680198595614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680198595614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="private page constructors">
+      <created>1680198731001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680198731001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +160,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add js executor and actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add js executor and actions" />
+    <MESSAGE value="add allure.properties, ref pom" />
+    <MESSAGE value="private page constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="private page constructors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
